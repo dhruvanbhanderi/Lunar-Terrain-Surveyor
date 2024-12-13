@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - Anand Watches</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .content-wrapper {
+            flex: 1;
+            padding: 60px 20px;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-container nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-container nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+
+        .nav-container nav a:hover {
+            background-color: #575757;
+        }
+
+        .categories {
+            padding: 60px 20px;
+            text-align: center;
+            color: #fff;
+            z-index: 10;
+            position: relative;
+        }
+
+        .categories h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .category-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .category-item {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .category-item:hover {
+            transform: scale(1.02);
+        }
+
+        .category-item img {
+            width: 50%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .category-content {
+            width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+
+        .category-content h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        .category-content p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .category-content a {
+            margin-top: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .category-content a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <video class="video-background" autoplay loop muted>
+        <source src="10 Chronograph Watches GUARANTEED to Impress.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="nav-container">
+            <h1>Anand Watches</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="categories.html">Categories</a>
+                <a href="signin.html">Sign In</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="categories">
+            <h2>Our Watch Collections</h2>
+            <div class="category-container">
+                <!-- Baroque Collection -->
+                <div class="category-item">
+                    <img src="images.jpeg" alt="Baroque Collection">
+                    <div class="category-content">
+                        <h3>Baroque Collection</h3>
+                        <p>
+                            The Baroque Collection represents the grandeur and sophistication of the Baroque era. Known for its intricate designs and elaborate details, these watches capture the essence of the 17th century with modern craftsmanship. Inspired by classical music, art, and architecture, each timepiece is a work of art.
+                        </p>
+                        <a href="baroque.html">Explore Baroque Collection</a>
+                    </div>
+                </div>
+                <!-- Renaissance Collection -->
+                <div class="category-item">
+                    <img src="images (1).jpeg" alt="Renaissance Collection">
+                    <div class="category-content">
+                        <h3>Renaissance Collection</h3>
+                        <p>
+                            The Renaissance Collection brings the spirit of rebirth and creativity to life. With designs inspired by the Renaissance period, these watches symbolize innovation and the pursuit of beauty. Each piece combines elegance with technical mastery, paying homage to a time of artistic awakening.
+                        </p>
+                        <a href="renaissance.html">Explore Renaissance Collection</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Anand Watches. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

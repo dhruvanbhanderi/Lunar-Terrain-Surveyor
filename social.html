@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iconic Moments - Anand Watches</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .content-wrapper {
+            flex: 1;
+            padding: 60px 20px;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-container nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-container nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+
+        .nav-container nav a:hover {
+            background-color: #575757;
+        }
+
+        .iconic-moments {
+            padding: 60px 20px;
+            text-align: center;
+            color: #fff;
+            z-index: 10;
+            position: relative;
+        }
+
+        .iconic-moments h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .timeline-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .timeline-item {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.1); /* Transparent background for item */
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .timeline-item img {
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .timeline-content {
+            width: 50%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3); /* Increased transparency */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .timeline-content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        .timeline-content p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <video class="video-background" autoplay loop muted>
+        <source src="DISCOVER JORDAN - Cinematic 4K Travel Film 🇯🇴.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="nav-container">
+            <h1>Anand Watches</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="categories.html">Categories</a>
+                <a href="signin.html">Sign In</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="iconic-moments">
+            <h2>Iconic Moments in Our History</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <img src="hamilton-khaki-pilot-poineer-mechanical-scaled.jpg" alt="Iconic Watch 1924">
+                    <div class="timeline-content">
+                        <h3>1924 - The First Anand Watch</h3>
+                        <p>
+                            In 1924, Anand Watches was born out of a passion for craftsmanship and an unyielding pursuit of precision. Our first watch was a marvel of engineering, combining artistry with advanced mechanics. It wasn’t just a timepiece; it was a statement of elegance and an embodiment of our values. To this day, the spirit of our first watch lives on in every design we create.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="navitimer-41-gmt-a32310251b1a1-black-metal-bracelet-wrist-shot-ecom.png" alt="Iconic Watch 1945">
+                    <div class="timeline-content">
+                        <h3>1945 - World War II Edition</h3>
+                        <p>
+                            As the world grappled with the hardships of World War II, Anand Watches introduced a special edition watch that symbolized resilience and fortitude. Crafted with rugged durability and a design that honored military traditions, this watch became a beloved symbol for those who lived through challenging times. It represented strength, hope, and the ability to overcome.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="Are-Vacheron-Constantin-Watches-A-Good-Investment-3.jpg" alt="Iconic Watch 1970">
+                    <div class="timeline-content">
+                        <h3>1970 - Revolution in Design</h3>
+                        <p>
+                            The 1970s marked a cultural shift, and Anand Watches was at the forefront of this revolution. Our 1970 design broke away from tradition with bold shapes, vibrant colors, and a spirit of innovation. This era-defining watch captured the free-spirited energy of the times, becoming an icon of style and creativity that resonates with collectors and enthusiasts to this day.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="33509341-1xlq5biq7s8qhbse41q9y2o7-ExtraLarge.jpg" alt="Iconic Watch 2000">
+                    <div class="timeline-content">
+                        <h3>2000 - The Millennium Collection</h3>
+                        <p>
+                            As the world entered a new millennium, Anand Watches celebrated with a special collection that bridged past and future. Our Millennium Collection featured futuristic design elements combined with classic touches, showcasing our commitment to innovation while honoring tradition. This collection symbolized progress, hope, and a new chapter in the Anand legacy.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="swisswatches-patek-philippe-grandmaster-chime-reference-6300a-010-000.jpg" alt="Iconic Watch 2024">
+                    <div class="timeline-content">
+                        <h3>2024 - 100-Year Anniversary</h3>
+                        <p>
+                            Marking a century of excellence, Anand Watches celebrates its 100-year anniversary with a limited-edition timepiece that embodies our journey. This watch is a tribute to our heritage, blending vintage aesthetics with cutting-edge technology. It represents a century of craftsmanship, dedication, and an unwavering commitment to quality, and it sets the stage for the future of Anand Watches.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Anand Watches. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
