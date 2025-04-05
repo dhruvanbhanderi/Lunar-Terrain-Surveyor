@@ -1,0 +1,7 @@
+ultralytics==8.3.102
+streamlit==1.44.1
+gdown
+streamlit
+Pillow
+opencv-python
+numpy
