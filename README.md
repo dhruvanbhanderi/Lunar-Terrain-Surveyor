@@ -125,9 +125,9 @@ Test the model instantly using images in the `sample/` folder.
 
 ## 🚀 Try It Online (No Setup Needed)
 
-👉 [Click here to launch the live app](https://your-username-lunar-rock-detector.streamlit.app)
+👉 [Click here to launch the live app](https://lunar-terrain-surveyor-gnpci3jzrvevhpq7lofjkz.streamlit.app/)
 
-(Replace with actual Streamlit link when deployed)
+
 
 ---
 
